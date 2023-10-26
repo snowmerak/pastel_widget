@@ -5,4 +5,4 @@ library;
 
 export 'src/pastel_widget_base.dart';
 
-// TODO: Export any libraries intended for clients of this package.
+export 'src/auto_complete.dart';
