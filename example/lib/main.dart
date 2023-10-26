@@ -11,25 +11,25 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final options = [
-      MapEntry('SM3', 'SM3'),
-      MapEntry('SM5', 'SM5'),
-      MapEntry('SM6', 'SM6'),
-      MapEntry('SM7', 'SM7'),
-      MapEntry('SM8', 'SM8'),
-      MapEntry('SM9', 'SM9'),
+      const MapEntry('SM3', 'SM3'),
+      const MapEntry('SM5', 'SM5'),
+      const MapEntry('SM6', 'SM6'),
+      const MapEntry('SM7', 'SM7'),
+      const MapEntry('SM8', 'SM8'),
+      const MapEntry('SM9', 'SM9'),
     ];
 
-    final callback = (List<String> value) {
+    callback(List<String> value) {
       print(value);
-    };
+    }
 
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Auto Complete Test'),
+          title: const Text('Auto Complete Test'),
         ),
         body: Container(
-          margin: EdgeInsets.all(20),
+          margin: const EdgeInsets.all(20),
           child:
               MultiAutocomplete<String>(options: options, callback: callback),
         ),
