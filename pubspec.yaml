@@ -1,7 +1,7 @@
 name: pastel_widget
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: A simple but useful widget for your Flutter project.
+version: 0.0.1
+repository: https://github.com/snowmerak/pastel_widget
 
 environment:
   sdk: ^3.1.2
